@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RS Costrucciones</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <!-- Logo como imagen -->
+            <div class="logo-container">
+                <a href="#inicio">
+                    <img src="media/Horizontalcolor.png" alt="Logo Empresa RS" class="logo-img">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide active" style="background-image: url(media/fotos/alpina1.jpg);">
+                    <div class="slide-content">
+                        <h2>Construye con confianza.</h2>
+                        <p>Garantizamos seguridad, transparencia en contratos, eficiencia en plazos y experiencia comprobada para que tu hogar sea sólido y duradero.</p>
+                        <a href="#contacto" class="btn">Contáctanos</a>
+                    </div>
+                </div>
+                <div class="slide" style="background-image: url(media/fotos/todochile.jpg);">
+                    <div class="slide-content">
+                        <h2>Cubrimos todo chile</h2>
+                        <p>Desde Arica hasta Punta Arenas, construimos casas a medida, adaptadas a cada clima y estilo.</p>
+                        <a href="#productos" class="btn">Ver Productos</a>
+                    </div>
+                </div>
+                <div class="slide" style="background-image: url(media/fotos/servicios.jpg);">
+                    <div class="slide-content">
+                        <h2>Servicios Personalizados</h2>
+                        <p>Soluciones adaptadas a tus necesidades específicas</p>
+                        <a href="#servicios" class="btn">Nuestros Servicios</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-nav">
+                <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="dots"></div>
+                <button class="next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros" class="section">
+        <div class="container">
+            <h2 class="section-title">Nosotros</h2>
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <h3>Nuestra Historia</h3>
+                    <p>Fundada en 2010, Empresa XYZ ha crecido de ser una pequeña startup a convertirse en líder del sector, gracias a nuestro compromiso con la excelencia y la innovación.</p>
+                    <h3>Nuestra Misión</h3>
+                    <p>Proporcionar soluciones de calidad que impulsen el crecimiento de nuestros clientes, mediante tecnologías innovadoras y un servicio excepcional.</p>
+                    <h3>Nuestro Equipo</h3>
+                    <p>Contamos con un equipo multidisciplinario de profesionales altamente capacitados y apasionados por lo que hacen.</p>
+                </div>
+                <div class="image-content">
+                    <img src="media/fotos/equipo.jpg" alt="Nuestro equipo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="productos" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Productos</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://source.unsplash.com/random/300x200/?product,1" alt="Producto 1">
+                    </div>
+                    <div class="product-info">
+                        <h3>Producto Premium</h3>
+                        <p>Nuestra solución más avanzada con todas las características incluidas.</p>
+                        <span class="price">$299.99</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://source.unsplash.com/random/300x200/?product,2" alt="Producto 2">
+                    </div>
+                    <div class="product-info">
+                        <h3>Producto Estándar</h3>
+                        <p>La solución perfecta para necesidades empresariales básicas.</p>
+                        <span class="price">$199.99</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://source.unsplash.com/random/300x200/?product,3" alt="Producto 3">
+                    </div>
+                    <div class="product-info">
+                        <h3>Producto Básico</h3>
+                        <p>Todo lo esencial para comenzar a un precio accesible.</p>
+                        <span class="price">$99.99</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="section">
+        <div class="container">
+            <h2 class="section-title">Servicios</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Instalaciones</h3>
+                    <p>Ejecución profesional de instalaciones eléctricas, hidrosanitarias y de gas con cumplimiento normativo. </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <h3>Mantenimiento</h3>
+                    <p>Programas de mantenimiento preventivo para edificaciones: análisis de fisuras, 
+                        tratamiento de humedades y refuerzo estructural con materiales certificados.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Asesorías</h3>
+                    <p>Consultoría especializada en gestión de proyectos constructivos: 
+                        optimización de costos, programación de obras y soluciones técnicas para licitaciones.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Información de Contacto</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Calle Principal 123, Ciudad, País</p>
+                    <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+                    <p><i class="fas fa-envelope"></i> info@empresaxyz.com</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Envíanos un Mensaje</h3>
+                    <form id="formContacto">
+                        <div class="form-group">
+                            <input type="text" id="nombre" name="nombre" placeholder="Nombre completo" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="telefono" name="telefono" placeholder="Teléfono (opcional)">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="mensaje" name="mensaje" placeholder="Tu mensaje" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>RS <span>Construcciones</span></h3>
+                    <p>"Construyendo sueños, creando hogares."</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Suscríbete</h4>
+                    <p>Recibe nuestras últimas noticias y ofertas.</p>
+                    <form>
+                        <input type="email" placeholder="Tu correo electrónico">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 RS Construcciones Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
