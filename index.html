@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RS Construcciones</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta name="description" content="RS Construcciones - Construye con confianza, cubriendo todo Chile con soluciones innovadoras y de alta calidad.">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <!-- Logo a la izquierda -->
+      <div class="logo-container">
+        <a href="#inicio" aria-label="Inicio">
+          <img src="media/Horizontalcolor.png" alt="Logo RS Construcciones" class="logo-img">
+        </a>
+      </div>
+      <!-- Menú de navegación -->
+      <nav aria-label="Menú principal">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <!-- Botón menú móvil (hamburguesa) a la derecha -->
+      <button class="menu-toggle" aria-label="Abrir menú"><i class="fas fa-bars"></i></button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Sección Hero -->
+    <section id="inicio" class="hero">
+      <div class="slider-container">
+        <div class="slider">
+          <div class="slide active" style="background-image: url(media/fotos/alpina1.jpg);">
+            <div class="slide-content">
+              <h2>Construye con confianza.</h2>
+              <p>Construimos con seguridad, claridad y rapidez.</p>
+              <a href="#contacto" class="btn">Contáctanos</a>
+            </div>
+          </div>
+          <div class="slide" style="background-image: url(media/fotos/todochile.jpg);">
+            <div class="slide-content">
+              <h2>Cubrimos todo Chile</h2>
+              <p>Desde Arica hasta Punta Arenas, construimos casas a medida, adaptadas a cada clima y estilo.</p>
+              <a href="#productos" class="btn">Ver Productos</a>
+            </div>
+          </div>
+          <div class="slide" style="background-image: url(media/fotos/servicios.jpg);">
+            <div class="slide-content">
+              <h2>Servicios Personalizados</h2>
+              <p>Soluciones adaptadas a tus necesidades específicas</p>
+              <a href="#servicios" class="btn">Nuestros Servicios</a>
+            </div>
+          </div>
+        </div>
+        <div class="slider-nav">
+          <button class="prev" aria-label="Slide anterior"><i class="fas fa-chevron-left"></i></button>
+          <div class="dots"></div>
+          <button class="next" aria-label="Slide siguiente"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Nosotros -->
+    <section id="nosotros" class="section">
+      <div class="container">
+        <h2 class="section-title">Nosotros</h2>
+        <div class="content-wrapper">
+          <div class="text-content">
+            <h3>Nuestra Historia</h3>
+            <p>RS Construcciones, fundada en 2019 y formalizada en 2024, es una empresa especializada en construcción residencial de alta calidad, con expertise en diseños alpinos. Nos distinguimos por combinar soluciones técnicas innovadoras con un enfoque personalizado, garantizando proyectos eficientes mediante estrictos protocolos de calidad, flexibilidad adaptativa y absoluta transparencia en todas las etapas, desde la conceptualización hasta la entrega final. Nuestro compromiso: materializar su visión arquitectónica con excelencia profesional y resultados que añaden valor duradero.</p>
+            <h3>Nuestra Misión</h3>
+            <p>Diseñar y construir viviendas alpinas que se adapten a las necesidades y estilo de vida de nuestros clientes, combinando funcionalidad, estética y calidad en cada proyecto. Nos especializamos en crear espacios únicos que reflejen la esencia de la arquitectura alpina, garantizando satisfacción y comodidad en cada detalle.</p>
+            <h3>Nuestro Equipo</h3>
+            <p>Contamos con un equipo multidisciplinario de profesionales altamente capacitados y apasionados por lo que hacen.</p>
+          </div>
+          <div class="image-content">
+            <img src="media/fotos/equipo.jpg" alt="Nuestro equipo" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Productos -->
+    <section id="productos" class="section bg-light">
+      <div class="container">
+        <h2 class="section-title">Productos</h2>
+        <!-- Carrusel de Productos Mejorado -->
+        <div class="product-carousel">
+          <div class="carousel-slider">
+            <div class="product-slide active">
+              <img src="media/fotos/producto1.jpg" alt="Casa Alpina 6x7">
+              <div class="slide-description">
+                <h3>Casa Alpina 6x7</h3>
+                <p>$19.870.000</p>
+              </div>
+            </div>
+            <div class="product-slide">
+              <img src="media/fotos/producto2.jpg" alt="Casa Alpina 6x10">
+              <div class="slide-description">
+                <h3>Casa Alpina 6x10</h3>
+                <p>$21.490.000</p>
+              </div>
+            </div>
+            <div class="product-slide">
+              <img src="media/fotos/producto3.jpg" alt="Casa Alpina + Ampliación">
+              <div class="slide-description">
+                <h3>Casa Alpina + Ampliación</h3>
+                <p>$22.948.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-nav">
+            <button class="carousel-prev" aria-label="Producto anterior"><i class="fas fa-chevron-left"></i></button>
+            <button class="carousel-next" aria-label="Producto siguiente"><i class="fas fa-chevron-right"></i></button>
+          </div>
+          <!-- Indicadores de Producto -->
+          <div class="product-dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Servicios -->
+    <section id="servicios" class="section">
+      <div class="container">
+        <h2 class="section-title">Servicios</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <h3>Instalaciones</h3>
+            <p>Ejecución profesional de instalaciones eléctricas, hidrosanitarias y de gas con cumplimiento normativo.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-clipboard-check"></i>
+            </div>
+            <h3>Mantenimiento</h3>
+            <p>Programas de mantenimiento preventivo para edificaciones: análisis de fisuras, tratamiento de humedades y refuerzo estructural con materiales certificados.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <h3>Asesorías</h3>
+            <p>Consultoría especializada en gestión de proyectos constructivos: optimización de costos, programación de obras y soluciones técnicas para licitaciones.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="section bg-light">
+      <div class="container">
+        <h2 class="section-title">Contacto</h2>
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <h3>Información de Contacto</h3>
+            <p><i class="fas fa-map-marker-alt"></i> Nirivilo, Camino a la Palmilla, Fundo Doña Edilia Parcela 1</p>
+            <p><i class="fas fa-phone"></i> +56 9 9568 1601</p>
+            <p><i class="fas fa-envelope"></i> contacto.rs.const@gmail.com</p>
+            <div class="social-links">
+              <a href="https://www.facebook.com/profile.php?id=61563843083548&locale=es_LA" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.instagram.com/rs_construcciones_casas" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+          <div class="contact-form">
+            <h3>Envíanos un Mensaje</h3>
+            <form id="formContacto">
+              <div class="form-group">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre completo" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+              </div>
+              <div class="form-group">
+                <label for="telefono">Teléfono (opcional)</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Teléfono (opcional)">
+              </div>
+              <div class="form-group">
+                <label for="mensaje">Tu mensaje</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Tu mensaje" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn">Enviar Mensaje</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Mapa -->
+    <section id="mapa" class="section">
+      <div class="container">
+        <h2 class="section-title">Nuestra Ubicación</h2>
+        <div class="map-responsive">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3248.033847619974!2d-72.0657954242202!3d-35.50344127264513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDMwJzEyLjQiUyA3MsKwMDMnNDcuNiJX!5e0!3m2!1ses-419!2scl!4v1743690383664!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h3>RS <span>Construcciones</span></h3>
+          <p>"Construyendo sueños, creando hogares."</p>
+        </div>
+        <div class="footer-links">
+          <h4>Enlaces Rápidos</h4>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Suscríbete</h4>
+          <p>Recibe nuestras últimas noticias y ofertas.</p>
+          <form>
+            <input type="email" placeholder="Tu correo electrónico">
+            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 RS Construcciones - Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Ícono flotante de WhatsApp -->
+  <a href="https://wa.me/56995681601" target="_blank" class="whatsapp-float" aria-label="Chat vía WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
